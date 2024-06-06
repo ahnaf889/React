@@ -1,0 +1,78 @@
+.Output{
+    text-align: center;
+    margin: 100px 0 50px;
+}
+
+.service__title{
+    font-family: var(--Black__color);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+    text-align: center;
+}
+
+.service__text{
+    margin: 0 auto;
+    max-width: 542px;
+    margin-top: 20px;
+    font-family: var(--inter__font);
+    color: var(--font__color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+}
+
+.ServiceBox__head{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.service__box{
+    padding: 63px 48px ;
+    width: 370px;
+    box-shadow: 8px 21px 19px -3px rgba(0,0,0,0.1);
+    border-top: 5px solid var(--blue__color);
+    border-left: 5px solid var(--blue__color);
+    border-right: 5px solid var(--blue__color);
+    border-radius: 10px;
+}
+
+.service__icons{
+    padding: 10px 10px;
+    font-size: 30px;
+    background: transparent;
+    border: 2px solid var(--blue__color);
+    border-radius: 10px;
+    color: var(--blue__color);
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.service__icons:hover{
+    color: var(--white__color);
+    background: var(--blue__color);
+    border: 2px solid var(--blue__color);
+}
+
+.sercive__title{
+    margin-top: 30px;
+    font-family: var(--inter__font);
+    color: var(--Black__color);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30.26px;
+}
+
+.service__texts{
+    margin-top: 20px;
+    max-width: 274px;
+    font-family: var(--inter__font);
+    color: var(--Black__color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: start;
+}

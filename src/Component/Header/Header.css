@@ -1,0 +1,48 @@
+/* ============== Logo Css ============ */
+
+.header__bg {
+  padding: 34px 0;
+}
+
+.hear__part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menuItem {
+  display: flex;
+  column-gap: 50px;
+}
+
+.menu__list{
+    font-family: var(--inter__font);
+    color: var(--Black__color);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+}
+
+.menu__list:hover{
+    color: #ff02ff;
+}
+
+.btn{
+    cursor: pointer;
+    padding: 13px 23px;
+    color: var(--white__color);
+    background: var(--blue__color);
+    font-family: var(--inter__font);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.30s;
+}
+
+.btn:hover{
+    background: #ff02ff;
+}
+
+/* ============== Logo Css ============ */

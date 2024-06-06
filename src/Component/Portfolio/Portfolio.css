@@ -1,0 +1,51 @@
+/* ============== Commen Css ============ */
+:root{
+    --blue__color: #5956E8;
+    --Black__color: #181818;
+    --white__color: #FFFEFE;
+    --font__color: #181818B2;
+    --inter__font: "Inter", sans-serif;
+}
+/* ============== Commen Css ============ */
+
+.portfolio__absulit{
+    position: relative;
+}
+
+.portfolio__position {
+    position: absolute;
+    top: 220%;
+    left: 8%;
+}
+
+.portfolio__main{
+    width: 230px;
+    height: 113px;
+    background: var(--blue__color);
+    border-radius: 10px;
+}
+
+.portfolio__title{
+    padding-top: 25px;
+    font-family: var(--inter__font);
+    color: var(--white__color);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+}
+
+.portfolio__text{
+    margin-top: 10px;
+    font-family: var(--inter__font);
+    color: var(--white__color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+}
+
+.portfolio__icon{
+    vertical-align: middle;
+    padding-left: 5px;
+}

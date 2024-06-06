@@ -1,0 +1,41 @@
+/* ============== Commen Css ============ */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+img{
+    vertical-align: middle;
+}
+
+ul, ol, li{
+    list-style: none;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,div,a,span,p,img{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+:root{
+    --blue__color: #5956E8;
+    --Black__color: #181818;
+    --white__color: #FFFEFE;
+    --font__color: #181818B2;
+    --inter__font: "Inter", sans-serif;
+}
+/* ============== Commen Css ============ */
